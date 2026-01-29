@@ -13,14 +13,14 @@ Welcome to my SQL practice hub! This repository is a curated collection of SQL s
 | 🔢 **03-Functions** | Grouping data using `GROUP BY`, `HAVING`, aggregate functions, numeric functions and string function. |
 | 🖼️ **04-Views-Indexing** | Creating Virtual Tables (Views) and optimizing with Indexes. |
 | ⚡ **05-Advanced-TSQL** | CTEs (Common Table Expressions) and Window Functions (`RANK`, `LEAD/LAG`). |
-| ⚙️ **06-Programmability** | Stored Procedures, UDFs (Functions), and Triggers. |
+| ⚙️ **06-Programmability** | Stored Procedure |
 | 🛡️ **07-Transactions** | ACID properties, `BEGIN TRAN`, `COMMIT`, and `ROLLBACK`. |
 
 ---
 
 ## 🛠️ Tech Stack & Tools
 *   **Engine:** [Microsoft SQL Server 2022](https://www.microsoft.com)
-*   **IDE:** [SQL Server Management Studio (SSMS)](https://learn.microsoft.com) or [Azure Data Studio](https://azure.microsoft.com)
+*   **IDE:** [SQL Server Management Studio (SSMS)](https://learn.microsoft.com) 
 *   **Language:** T-SQL (Transact-SQL)
 
 ---
@@ -48,8 +48,8 @@ Welcome to my SQL practice hub! This repository is a curated collection of SQL s
 ---
 
 ## ✍️ Author
-**Your Name**  
-[LinkedIn](https://www.linkedin.com) | [Portfolio](https://yourwebsite.com)
+**Swaranjali Baburao Harkare**  
+https://www.linkedin.com/in/swaranjali-harkare-364a592a8/ 
 
 ---
 ⭐ *If you find these queries helpful, feel free to star this repository!*
