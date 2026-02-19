@@ -1,0 +1,9 @@
+USE car;
+
+SELECT * FROM car_model;
+INSERT INTO car_model VALUES('Toyota', 'Camry', 2024, 'Sedan', 'Petrol', 2487, 26420.00)
+
+--Using MIN() and GROUP BY
+--IF we dont want a data where  MakeName,ModelName is double 
+DELETE FROM car_model
+WHERE ModelID NOT IN(SELECT MIN(ModelID) FROM car_model GROUP BY MakeName,ModelName )
