@@ -1,0 +1,13 @@
+USE car;
+
+SELECT * FROM car_model;
+INSERT INTO car_model VALUES('Toyota', 'Camry12', 2024, 'Sedan', 'Petrol', 2487, 26420.00)
+
+--Using CTE(Common Table Expression) and ROW_NUMBER
+--IF we dont want a data where MakeName is double 
+WITH CTE AS (
+SELECT MakeName,ModelName,ROW_NUMBER() OVER (PARTITION BY MakeName ORDER BY(SELECT NULL)) AS duplicate_row
+FROM car_model
+)
+
+DELETE FROM CTE WHERE duplicate_row>1 ;
